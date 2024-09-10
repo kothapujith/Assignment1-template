@@ -1,6 +1,6 @@
 # Assignment 1: Getting Started with Godot
 
-**Due: Tuesday, September 28, 11:59pm CDT**
+**Due: Tuesday, September 24, 11:59pm CDT**
 
 The purpose of the assignment is twofold:
 
