@@ -1,6 +1,6 @@
 # Assignment 1: Getting Started with Godot
 
-**Due: Tuesday, September 28, 11:59pm CDT**
+**Due: Tuesday, September 24, 11:59pm CDT**
 
 The purpose of the assignment is twofold:
 
@@ -68,7 +68,7 @@ This is the most onerous part of this assignment and where I expect you will spe
 
 1. Setup Godot to deploy to Android: [https://docs.godotengine.org/en/stable/tutorials/xr/deploying_to_android.html](https://docs.godotengine.org/en/stable/tutorials/xr/deploying_to_android.html). When adding the "Godot OpenXR Vendors plugin", you will use the "AssetLib" tab, which is located to the right of "Script" on the top of the editor. You should not need to enable the plugin (see the note in that section).
 
-1. Setting up XR in Godot: [https://docs.godotengine.org/en/stable/tutorials/xr/setting_up_xr.html](https://docs.godotengine.org/en/stable/tutorials/xr/setting_up_xr.html). Follow these instructions up to the "Setting up the XR scene" header.
+1. Setting up XR in Godot: [https://docs.godotengine.org/en/stable/tutorials/xr/setting_up_xr.html](https://docs.godotengine.org/en/stable/tutorials/xr/setting_up_xr.html). Follow these instructions up to the "Open XR" header.
 
 These tasks should only need to be done one time (i.e. not per project/assignment)
 
@@ -78,7 +78,7 @@ To complete this assignment, you are going to create a simple virtual environmen
 
 1. Check out this assignment using GitHub classroom.  An empty Godot project has already been created for you.
 1. Create a new scene and save it.
-1. Continue these instructions starting at "Setting up the XR scene": [https://docs.godotengine.org/en/stable/tutorials/xr/setting_up_xr.html](https://docs.godotengine.org/en/stable/tutorials/xr/setting_up_xr.html). This part will need to be done for every assignment.
+1. Continue these instructions starting at "Open XR": [https://docs.godotengine.org/en/stable/tutorials/xr/setting_up_xr.html](https://docs.godotengine.org/en/stable/tutorials/xr/setting_up_xr.html). This part will need to be done for every assignment.
 1. Add a `CSGBox3D` node as a child to the left and right controllers. Set the scale of the box to (0.1, 0.1, 0.1). This will stand in as a proxy for the controllers for now.
 1. Build the APK file and deploy the project to your Quest headset. To build the file, go to `Project->Export` and choose the profile you created from the "Deploying to Android" tutorial. Change the "Export Path" to be `Assignment-1.apk`. This will put the compiled APK in the project's root folder. Do not put it somewhere else. To deploy the application, you can use a tool such as [SideQuest](https://sidequestvr.com/). Alternatively, and the suggested way, is to set up "one click deploy" on Godot using these instructions: [https://docs.godotengine.org/en/stable/tutorials/export/one-click_deploy.html#doc-one-click-deploy](https://docs.godotengine.org/en/stable/tutorials/export/one-click_deploy.html#doc-one-click-deploy) 
 1. The first time you try to build on a new computer, you may get an error that USB debugging is not enabled.  Put on the headset, and you will see a popup to authorize the computer.  
